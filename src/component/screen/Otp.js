@@ -42,7 +42,7 @@ export default function Otp ({ navigation }) {
         <OTPTextView
           handleTextChange={e => {}}
           containerStyle={styles.textInputContainer}
-          textInputStyle={styles.roundedTextInput}
+        
           defaultValue=""
         />
         <AppButton
