@@ -9,7 +9,6 @@ import Icon from 'react-native-vector-icons/MaterialIcons';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import COLORS from '../uicomponents/colors';
 import More from './More';
-
 import Offers from './Offers';
 import MCI from 'react-native-vector-icons/AntDesign';
 import Profile from './Profile'
