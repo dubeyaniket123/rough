@@ -2,9 +2,7 @@ import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { NavigationContainer } from '@react-navigation/native';
 import BottomNavigator from './src/component/screen/BottomNavigator';
-import NewPassword from './src/component/screen/NewPassword';
 import Task from './src/component/screen/Task';
-import Page from './src/component/screen/Page';
 import HeaderButton from './src/component/screen/HeaderButton';
 
 const Stack = createNativeStackNavigator();

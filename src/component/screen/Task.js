@@ -36,10 +36,10 @@ function Task(){
     <Text style={{fontSize:15,fontWeight:'500',color:'#ff4500'}}>
     Aniket Dubey
     </Text>
-    <Text style={{fontSize:12,fontWeight:'700'}}>
+    <Text style={{fontSize:12,fontWeight:'700',color:'#545856'}}>
     UX Designer
     </Text>
-    <Text style={{fontSize:12,fontWeight:'500'}}>
+    <Text style={{fontSize:12,fontWeight:'500',color:'#545856'}}>
     123456
     </Text>
    </View>
@@ -85,10 +85,10 @@ function Task(){
         <Text style={{fontSize:12,fontWeight:'600',color:'black'}}>
           20
         </Text>
-        <Text style={{fontSize:8,fontWeight:'700',}}>
+        <Text style={{fontSize:8,fontWeight:'700',color:'#545856'}}>
           Total Days in 
         </Text>
-        <Text style={{fontSize:8,fontWeight:'700',}}>
+        <Text style={{fontSize:8,fontWeight:'700',color:'#545856'}}>
           Dec
         </Text>
        </View>
@@ -105,10 +105,10 @@ function Task(){
         <Text style={{fontSize:12,fontWeight:'600',color:'black'}}>
           20
         </Text>
-        <Text style={{fontSize:8,fontWeight:'700',}}>
+        <Text style={{fontSize:8,fontWeight:'700',color:'#545856'}}>
           Payable Days
         </Text>
-        <Text style={{fontSize:8,fontWeight:'700',}}>
+        <Text style={{fontSize:8,fontWeight:'700',color:'#545856'}}>
           Dec
         </Text>
        </View>
@@ -126,10 +126,10 @@ function Task(){
         <Text style={{fontSize:12,fontWeight:'600',color:'black'}}>
           20
         </Text>
-        <Text style={{fontSize:8,fontWeight:'700',}}>
+        <Text style={{fontSize:8,fontWeight:'700',color:'#545856'}}>
           Present
         </Text>
-        <Text style={{fontSize:7,fontWeight:'600',}}>
+        <Text style={{fontSize:7,fontWeight:'600',color:'#545856'}}>
           
         </Text>
        </View>
@@ -148,10 +148,10 @@ function Task(){
         <Text style={{fontSize:12,fontWeight:'600',color:'black'}}>
           20
         </Text>
-        <Text style={{fontSize:8,fontWeight:'700',}}>
+        <Text style={{fontSize:8,fontWeight:'700',color:'#545856'}}>
           On Duty
         </Text>
-        <Text style={{fontSize:7,fontWeight:'600',}}>
+        <Text style={{fontSize:7,fontWeight:'600',color:'#545856'}}>
           
         </Text>
        </View>
@@ -168,7 +168,7 @@ function Task(){
         <Text style={{fontSize:12,fontWeight:'600',color:'black'}}>
           20
         </Text>
-        <Text style={{fontSize:8,fontWeight:'700',}}>
+        <Text style={{fontSize:8,fontWeight:'700',color:'#545856'}}>
           Week Off
         </Text>
         <Text style={{fontSize:7,fontWeight:'600'}}>
@@ -188,7 +188,7 @@ function Task(){
         <Text style={{fontSize:12,fontWeight:'600',color:'black'}}>
           20
         </Text>
-        <Text style={{fontSize:8,fontWeight:'700',}}>
+        <Text style={{fontSize:8,fontWeight:'700',color:'#545856'}}>
           Holiday
         </Text>
         <Text style={{fontSize:7,fontWeight:'600',}}>
@@ -210,7 +210,7 @@ function Task(){
         <Text style={{fontSize:12,fontWeight:'600',color:'black'}}>
           20
         </Text>
-        <Text style={{fontSize:8,fontWeight:'700',}}>
+        <Text style={{fontSize:8,fontWeight:'700',color:'#545856'}}>
           Leave
         </Text>
         <Text style={{fontSize:7,fontWeight:'700',}}>
@@ -221,7 +221,7 @@ function Task(){
       <View style={{width:width*0.3,height:height*0.06,backgroundColor:'#FAEBF8',borderRadius:5,flexDirection:'row',justifyContent:'space-around'}}>
       <View style={{alignItems:'center',justifyContent:'center', width: 25,  height: 25,  borderRadius: 20, borderWidth: 2, borderColor: '#CD15CB',marginTop:8}}>
     <Icon
-     name={'exclamation'}
+     name={'bag-personal-outline'}
      size={15}
     color="#CD15CB"
      />    
@@ -230,10 +230,10 @@ function Task(){
         <Text style={{fontSize:12,fontWeight:'600',color:'black'}}>
           20
         </Text>
-        <Text style={{fontSize:8,fontWeight:'700',}}>
+        <Text style={{fontSize:8,fontWeight:'700',color:'#545856'}}>
           leave Without
         </Text>
-        <Text style={{fontSize:8,fontWeight:'600',}}>
+        <Text style={{fontSize:8,fontWeight:'600',color:'#545856'}}>
           pay
         </Text>
        </View>
@@ -251,7 +251,7 @@ function Task(){
         <Text style={{fontSize:12,fontWeight:'600',color:'black'}}>
           20
         </Text>
-        <Text style={{fontSize:8,fontWeight:'700',}}>
+        <Text style={{fontSize:8,fontWeight:'700',color:'#545856'}}>
           Absent
         </Text>
         <Text style={{fontSize:7,fontWeight:'700',}}>
@@ -284,21 +284,21 @@ function Task(){
       <View style={{flexDirection:'column',backgroundColor:'#ffe4c4',padding:5,borderBottomEndRadius:10,borderBottomStartRadius:10,}}>
        <View style={{flexDirection:'row',alignItems:'center'}}>
        <Text style={{fontSize:18,color:'black',fontWeight:'700'}}>12</Text>
-       <Text style={{fontSize:10,fontWeight:'700',marginLeft:7}}>Left</Text>
+       <Text style={{fontSize:10,fontWeight:'700',marginLeft:7,color:'#545856'}}>Left</Text>
        </View>
        <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',margin:2}}>
-       <Text style={{fontSize:10,fontWeight:'700'}}>Current year</Text>
-       <Text style={{fontSize:10,fontWeight:'700',marginRight:5}}>00</Text>
+       <Text style={{fontSize:10,fontWeight:'700',color:'#545856'}}>Current year</Text>
+       <Text style={{fontSize:10,fontWeight:'700',marginRight:5,color:'#545856'}}>00</Text>
        </View>
        <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',margin:2}}>
-       <Text style={{fontSize:10,fontWeight:'700'}}>Available</Text>
-       <Text style={{fontSize:10,fontWeight:'700',marginRight:5}}>00</Text>
+       <Text style={{fontSize:10,fontWeight:'700',color:'#545856'}}>Available</Text>
+       <Text style={{fontSize:10,fontWeight:'700',marginRight:5,color:'#545856'}}>00</Text>
        </View>
 
        <View style={{ borderWidth: 1, borderColor: '#a9a9a9',borderRadius: 5,}}></View>
        <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',margin:2}}>
-       <Text style={{fontSize:10,fontWeight:'700'}}>Balance</Text>
-       <Text style={{fontSize:10,fontWeight:'700',marginRight:5}}>00</Text>
+       <Text style={{fontSize:10,fontWeight:'700',color:'#545856'}}>Balance</Text>
+       <Text style={{fontSize:10,fontWeight:'700',marginRight:5,color:'#545856'}}>00</Text>
        </View>
       </View>
      
@@ -310,21 +310,21 @@ function Task(){
       <View style={{flexDirection:'column',backgroundColor:'#9FCFF2',padding:5,borderBottomEndRadius:10,borderBottomStartRadius:10,}}>
        <View style={{flexDirection:'row',alignItems:'center'}}>
        <Text style={{fontSize:18,color:'black',fontWeight:'700'}}>12</Text>
-       <Text style={{fontSize:10,fontWeight:'700',marginLeft:7}}>Left</Text>
+       <Text style={{fontSize:10,fontWeight:'700',marginLeft:7,color:'#545856'}}>Left</Text>
        </View>
        <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',margin:2}}>
-       <Text style={{fontSize:10,fontWeight:'700'}}>Current year</Text>
-       <Text style={{fontSize:10,fontWeight:'700',marginRight:5}}>00</Text>
+       <Text style={{fontSize:10,fontWeight:'700',color:'#545856'}}>Current year</Text>
+       <Text style={{fontSize:10,fontWeight:'700',marginRight:5,color:'#545856'}}>00</Text>
        </View>
        <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',margin:2}}>
-       <Text style={{fontSize:10,fontWeight:'700'}}>Available</Text>
-       <Text style={{fontSize:10,fontWeight:'700',marginRight:5}}>00</Text>
+       <Text style={{fontSize:10,fontWeight:'700',color:'#545856'}}>Available</Text>
+       <Text style={{fontSize:10,fontWeight:'700',marginRight:5,color:'#545856'}}>00</Text>
        </View>
 
        <View style={{ borderWidth: 1, borderColor: `#a9a9a9`,borderRadius: 5,}}></View>
        <View style={{flexDirection:'row',alignItems:'center',justifyContent:'space-between',margin:2}}>
-       <Text style={{fontSize:10,fontWeight:'700'}}>Balance</Text>
-       <Text style={{fontSize:10,fontWeight:'700',marginRight:5}}>00</Text>
+       <Text style={{fontSize:10,fontWeight:'700',color:'#545856'}}>Balance</Text>
+       <Text style={{fontSize:10,fontWeight:'700',marginRight:5,color:'#545856'}}>00</Text>
        </View>
       </View>
      

@@ -59,30 +59,7 @@ const BottomNavigator = () => {
           )
         }}
       />
-      {/* <Tab.Screen
-        name=" "
-        component={MainPage}
-        options={{
-          headerShown: false,
-          tabBarIcon: ({ color }) => (
-            <View
-              style={{
-                height: 60,
-                width: 60,
-                justifyContent: 'center',
-                alignItems: 'center',
-                backgroundColor: COLORS.white,
-                borderColor: COLORS.primary,
-                borderWidth: 2,
-                borderRadius: 30,
-                top: -45,
-                elevation: 5
-              }}>
-              <Icon name="home-filled" color={COLORS.primary} size={28} />
-            </View>
-          )
-        }}
-      /> */}
+     
       <Tab.Screen
         name="my team"
         component={Profile}
